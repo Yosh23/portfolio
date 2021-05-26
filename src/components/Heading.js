@@ -17,7 +17,6 @@ export default class extends Component {
                         src="https://fontmeme.com/permalink/180608/a61485dcad61e605f496571c49054d2f.png"
                         alt="Josh Riches"/></Link></NavbarBrand>
                     <Nav className="ml-auto" navbar>
-                        <NavItem><NavLink tag={Link} to="/about">About</NavLink></NavItem>
                         <NavItem><NavLink tag={Link} to="/contact">Contact</NavLink></NavItem>
                         <NavItem><NavLink tag={Link} to="/projects">Projects</NavLink></NavItem>
                         <NavItem>

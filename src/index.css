@@ -1,28 +1,81 @@
-Banner {
-    height: 5em;
+h1 {
+    text-align: center;
 }
 
+
 section {
-    height: 60em;
+    height: 2000px;
     background-image: url("./resources/pictures/portfoliopic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card img {
-    height: 10em;
+    height: 250px;
+    border-radius: 50px;
 }
 
 .card {
     text-align: center;
-    border-radius: 10em;
-    width: 20em;
-    height: 20em;
+    border-radius: 50px !important;
+    width: 450px;
+    height: 550px;
+    margin: 10px
 }
 
 .cardsContainer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 3em;
+    padding: 20px;
+}
+
+.container {
+display: flex;
+width: 80%;
+margin: auto;
+justify-content: center;
+}
+
+#custom-btn {
+background-color: orange;
+padding: 15px;
+border-radius: 10px;
+color: #000000;
+margin-top: -20px;
+}
+.card-body > .btn {
+    margin-top: 10px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+}
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.center {
+    align-self: center;
+}
+
+.center > p > a {
+color: #000;
+text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+#custom-btn {
+    font-size: 48px;
+    background-color: orange;
+    padding: 30px;
+    border-radius: 10px;
+    color: #000000;
+    margin: 20px;
+    }
+
 }
