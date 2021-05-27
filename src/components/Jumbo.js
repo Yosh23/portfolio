@@ -25,25 +25,25 @@ export default class extends Component {
                     <Card>
                         <CardImg src={tic} alt="Tic-Tac-Toe"/>
                         <CardBody>
-                            <CardTitle>Tic-Tac-Toe</CardTitle>
-                            <CardSubtitle>React.js and Material.ui</CardSubtitle>
-                            <Button target="_blank" href="https://joshtictactoe.netlify.com/">Check it out</Button>
+                            <CardTitle id="title">Tic-Tac-Toe</CardTitle>
+                            <CardSubtitle id="sub">React.js and Material.ui</CardSubtitle>
+                            <Button target="_blank" href="https://joshtictactoe.netlify.com/" id="card-btn">Check it out</Button>
                         </CardBody>
                     </Card>
                     <Card>
                         <CardImg  src={calendar} alt="Calendar"/>
                         <CardBody>
-                            <CardTitle>Calendar</CardTitle>
-                            <CardSubtitle>Javascript/Html/Css</CardSubtitle>
-                            <Button target="_blank" href="https://tvillecwall.netlify.app/">Check it out</Button>
+                            <CardTitle id="title">Calendar</CardTitle>
+                            <CardSubtitle id="sub">Javascript/Html/Css</CardSubtitle>
+                            <Button target="_blank" href="https://tvillecwall.netlify.app/" id="card-btn">Check it out</Button>
                         </CardBody>
                     </Card>
                     <Card>
                         <CardImg src={jumpstart} alt="Jumpstart Landing Page"/>
                         <CardBody>
-                            <CardTitle>Jumpstart Landing Page</CardTitle>
-                            <CardSubtitle>jQuery/Html/Css/Bootstrap</CardSubtitle>
-                            <Button target="_blank" href="https://yosh23.github.io/jumpstart/">Check it out</Button>
+                            <CardTitle id="title">Jumpstart Landing Page</CardTitle>
+                            <CardSubtitle id="sub">jQuery/Html/Css/Bootstrap</CardSubtitle>
+                            <Button target="_blank" href="https://yosh23.github.io/jumpstart/" id="card-btn">Check it out</Button>
                         </CardBody>
                     </Card>
                     </div>

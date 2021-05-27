@@ -5,7 +5,7 @@ export default class extends Component {
     render() {
         return (
             <Fragment>
-               <div class="section">
+               <div class="footer section">
                    <h6 class="center">Thanks for coming</h6>
                </div>
             </Fragment>

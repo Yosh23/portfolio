@@ -15,41 +15,41 @@ export default class extends Component {
                     <Card width="6em">
                         <CardImg top width="100%" src={tic} alt="Tic-Tac-Toe"/>
                         <CardBody>
-                            <CardTitle>Tic-Tac-Toe</CardTitle>
-                            <CardSubtitle>React.js and Material.ui</CardSubtitle>
-                            <Button target="_blank" href="https://joshtictactoe.netlify.com/">Check it out</Button>
+                            <CardTitle id="title">Tic-Tac-Toe</CardTitle>
+                            <CardSubtitle id="sub">React.js and Material.ui</CardSubtitle>
+                            <Button target="_blank" href="https://joshtictactoe.netlify.com/" id="card-btn">Check it out</Button>
                         </CardBody>
                     </Card>
                     <Card width="6em">
                         <CardImg top width="100%" height="50em" src={match} alt="Match Game"/>
                         <CardBody>
-                            <CardTitle>Match Game</CardTitle>
-                            <CardSubtitle>jQuery/Html/Css</CardSubtitle>
-                            <Button target="_blank" href="https://yosh23.github.io/match/">Check it out</Button>
+                            <CardTitle id="title">Match Game</CardTitle>
+                            <CardSubtitle id="sub">jQuery/Html/Css</CardSubtitle>
+                            <Button target="_blank" href="https://yosh23.github.io/match/" id="card-btn">Check it out</Button>
                         </CardBody>
                     </Card>
                     <Card width="6em">
                         <CardImg top width="100%" height="50em" src={jumpstart} alt="Jumpstart Landing Page"/>
                         <CardBody>
-                            <CardTitle>Jumpstart Landing Page</CardTitle>
-                            <CardSubtitle>jQuery/Html/Css/Bootstrap</CardSubtitle>
-                            <Button target="_blank" href="https://yosh23.github.io/jumpstart/">Check it out</Button>
+                            <CardTitle id="title">Jumpstart Landing Page</CardTitle>
+                            <CardSubtitle id="sub">jQuery/Html/Css/Bootstrap</CardSubtitle>
+                            <Button target="_blank" href="https://yosh23.github.io/jumpstart/" id="card-btn">Check it out</Button>
                         </CardBody>
                     </Card>
                     <Card width="6em">
                         <CardImg top width="100%" height="50em" src={track} alt="Trackster"/>
                         <CardBody>
-                            <CardTitle>Trackster</CardTitle>
-                            <CardSubtitle>jQuery/Html/Css</CardSubtitle>
-                            <Button target="_blank" href="https://yosh23.github.io/trackster/">Check it out</Button>
+                            <CardTitle id="title">Trackster</CardTitle>
+                            <CardSubtitle id="sub">jQuery/Html/Css</CardSubtitle>
+                            <Button target="_blank" href="https://yosh23.github.io/trackster/" id="card-btn">Check it out</Button>
                         </CardBody>
                     </Card>
                     <Card width="6em">
                         <CardImg top width="100%" height="50em" src={calendar} alt="Calendar"/>
                         <CardBody>
-                            <CardTitle>Calendar</CardTitle>
-                            <CardSubtitle>Javascript/Html/Css</CardSubtitle>
-                            <Button target="_blank" href="https://tvillecwall.netlify.app/">Check it out</Button>
+                            <CardTitle id="title">Calendar</CardTitle>
+                            <CardSubtitle id="sub">Javascript/Html/Css</CardSubtitle>
+                            <Button target="_blank" href="https://tvillecwall.netlify.app/" id="card-btn">Check it out</Button>
                         </CardBody>
                     </Card>
                 </div>
