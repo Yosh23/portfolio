@@ -9,6 +9,10 @@ section {
     background-size: cover;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    font-size:33px;
+}
+
 .footer > h6 {
     font-size: 40px !important;
     margin: 20px;
@@ -64,6 +68,10 @@ justify-content: center;
 .link {
     color: #000;
 text-decoration: underline;
+}
+
+#nav-i {
+    font-size: 50px;
 }
 
 #card-btn {
