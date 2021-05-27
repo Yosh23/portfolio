@@ -48,7 +48,7 @@ export default class extends Component {
                     </Card>
                     </div>
                     <div className="container">
-                    <NavLink tag={Link} to="/projects"><Button target="_blank" href="Projects" id="custom-btn">Rest of my Projects</Button></NavLink>
+                    <NavLink tag={Link} to="/projects"><Button target="_blank" href="Projects" id="custom-btn">View More</Button></NavLink>
                     </div>
                 </section>
             </Fragment>
